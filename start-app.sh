@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Navigate to the app directory
-# Replace the path below with the actual location on your machine where you clone the repo
-APP_DIR="$HOME/DEV/image-compressor-tool"
+# Navigate to the app directory - Updated with your specific path
+APP_DIR="/Users/cobibean/DEV/image-compressor-tool"
 
 # Check if the directory exists
 if [ ! -d "$APP_DIR" ]; then
